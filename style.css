@@ -24,6 +24,13 @@ body {
   margin: 0;
 }
 
+.downloadtext {
+  background: linear-gradient(225deg, #ff7a00, red); 
+  -webkit-background-clip: text; 
+  -webkit-text-fill-color: transparent;
+  font-size: 12px;
+}
+
 .mac-btn {
   display: flex;
   flex-direction: row;
@@ -2028,7 +2035,7 @@ textarea.w-input, textarea.w-select {
 @media screen and (max-width: 991px) {
   .w-nav[data-collapse="medium"] .w-nav-menu {
     display: none;
-    background-color: #161616;
+    background-color: rgba(20, 20, 20, 0.9);
   }
 
   .w-nav[data-collapse="medium"] .w-nav-button {
