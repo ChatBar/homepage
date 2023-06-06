@@ -25,10 +25,10 @@ body {
 }
 
 .downloadtext {
-  background: linear-gradient(225deg, #ff7a00, red); 
+  background: linear-gradient(225deg, #ffa34d, rgb(255, 72, 72)); 
   -webkit-background-clip: text; 
   -webkit-text-fill-color: transparent;
-  font-size: 12px;
+  font-size: 14px;
 }
 
 .mac-btn {
