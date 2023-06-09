@@ -24,6 +24,41 @@ body {
   margin: 0;
 }
 
+.success-section{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 128px;
+  gap: 48px;
+}
+
+.success-box{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px;
+  gap: 16px;
+  background: linear-gradient(180deg, rgba(74, 66, 66, 0.064) 0%, rgba(243, 107, 115, 0.08) 100%);
+  border: 0.5px solid rgba(255, 255, 255, .3);
+  border-radius: 16px;
+}
+
+.success-image{
+
+}
+
+.font12 {
+  color:#a2a2a2;
+  font-size:13px;
+  letter-spacing: 1px;
+}
+
+.font14 {
+  color:#fff;
+  font-weight: 500;
+}
+
 .downloadtext {
   background: linear-gradient(225deg, #ffa34d, rgb(255, 72, 72)); 
   -webkit-background-clip: text; 
