@@ -3659,9 +3659,20 @@ figcaption {
     padding-right: 15px;
   }
 
-  .contact-form, .contact-form-wrap, .footer-wrap {
+  .contact-form, .contact-form-wrap, {
     flex-direction: column;
   }
+
+  .footer-wrap{
+    display: flex;
+    text-align: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 4rem;
+  }
+  }
+
+
 
   .about-head-text-wrap {
     width: 100%;
