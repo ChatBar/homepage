@@ -3756,7 +3756,7 @@ figcaption {
 
 .group:hover .group-hover\:text-primary-500 {
   --tw-text-opacity: 1;
-  color: #F5222D;
+  color: #fff;
 }
 
 .group:hover .group-hover\:opacity-100 {
@@ -3781,12 +3781,16 @@ figcaption {
 .help-title{
   cursor: pointer;
   font-size: 16px;
-  color:#fff;
+  color: rgb(255 255 255 / 80%);
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding-bottom: 1rem;
   padding-top: 1rem;
+}
+
+.help-title:hover{
+  color: rgb(255, 255, 255);
 }
 
 .help-p{
