@@ -2620,7 +2620,6 @@ figcaption {
 }
 
 .work-description {
-  align-self: auto;
   min-height: 100%;
   width: 100%;
   max-width: 390px;
