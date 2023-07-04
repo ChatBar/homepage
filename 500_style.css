@@ -7,9 +7,9 @@ body {
 
 .outerbox {
     display: flex;
-    width: 272px;
-    height: 272px;
-    padding: 28px 30px;
+    width: 320px;
+    height: 320px;
+    padding: 32px 32px;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -34,6 +34,6 @@ img {
     font-size: 14px;
     font-family: Noto Sans SC;
     font-style: normal;
-    font-weight: 500;
+    font-weight: 400;
     line-height: normal;
 }
