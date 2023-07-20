@@ -68,6 +68,13 @@ a{
   font-size: 14px;
 }
 
+.button-group {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 16px;
+}
+
 .mac-btn {
   display: flex;
   flex-direction: row;
@@ -3112,6 +3119,48 @@ figcaption {
   transform: rotate(0);
   box-shadow: 0 0 16px #ff5b27;
 }
+
+.button-linear {
+  display: flex;
+  width: 152px;
+  height: 48px;
+  padding: 0px 32px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  background-image: linear-gradient(225deg, rgba(255, 122, 0, 0.10) 0%, rgba(255, 0, 0, 0.10) 100%); /* 渐变背景 */
+  background-color: #000;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  transition-property: box-shadow;
+  transition-duration: .5s;
+}
+
+.button-linear-outer {
+  padding: 1px;
+  width: 154px;
+  height: 50px;
+  border-radius: 8px;
+  background-image: linear-gradient(225deg, #ff7a00, red);
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.button-linear:hover {
+  background-color: #000000ee;
+  transform: rotate(0);
+  box-shadow: 0 0 16px #ff5b27;
+}
+
+.linear-text {
+  background: linear-gradient(225deg, #FFCEA1 0%, #FF6A49 100%); 
+  -webkit-background-clip: text; 
+  -webkit-text-fill-color: transparent;
+  font-size: 16px;
+}
+
 
 .heading {
   color: rgba(0, 0, 0, 0);
